@@ -34,4 +34,31 @@ h3 {
 .nav-bar-custom {
   background: #dbd8e3;
   color: #2a2438;
+  padding: 10px 20px;
+}
+
+.header-button {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact-me-button {
+  background-color: #dbd8e3;
+  border-radius: 4px;
+  color: #2a2438;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+.contact-me-button:hover {
+  text-decoration-line: none;
+  background-color: #2a2438;
+  color: #dbd8e3;
+  border: 2px solid #dbd8e3;
+}
+
+@media (max-width: 600px) {
+  header {
+    margin-top: 100px;
+  }
 }
