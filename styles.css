@@ -105,8 +105,7 @@ footer {
   margin-top: 150px;
   background-color: #352f44;
   border-radius: 4px;
-  max-width: 80%;
-  padding: 20px 0px 20px 70px;
+  padding: 10px 0px;
 }
 
 .work-together {
@@ -126,11 +125,20 @@ footer {
   font-weight: 500;
 }
 
+.email-address {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
 @media (max-width: 600px) {
   header {
     margin-top: 100px;
   }
   .avatar {
     display: none;
+  }
+  .about-grid {
+    margin-top: 100px;
   }
 }
