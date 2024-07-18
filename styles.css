@@ -113,6 +113,33 @@ footer {
   font-weight: 400;
 }
 
+.header-work {
+  font-family: "DM Serif Display", serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 50px 0px 100px 0px;
+  text-align: center;
+}
+
+.work-title {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.work-description {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.work-image {
+  border-radius: 4px;
+  height: 250px;
+  width: 500px;
+}
+
 .footer-link {
   color: #9d53c3;
   font-weight: 500;
@@ -120,7 +147,7 @@ footer {
 
 .footer-link:hover {
   text-decoration-line: none;
-  color: #00bdaa;
+  color: #f638dc;
 
   font-weight: 500;
 }
