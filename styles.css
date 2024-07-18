@@ -136,8 +136,6 @@ footer {
 
 .work-image {
   border-radius: 4px;
-  height: 250px;
-  width: 500px;
 }
 
 .footer-link {
@@ -167,5 +165,9 @@ footer {
   }
   .about-grid {
     margin-top: 100px;
+  }
+
+  .header-work {
+    font-size: 50px;
   }
 }
