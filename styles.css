@@ -155,6 +155,32 @@ footer {
   margin-top: 70px;
   font-size: 20px;
 }
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.cv {
+  margin-left: 20px;
+  color: #dbd8e3;
+}
+
+.cv:hover {
+  text-decoration-line: none;
+  color: #f638dc;
+}
+
+.linked-in {
+  margin-right: 20px;
+  color: #dbd8e3;
+}
+
+.linked-in:hover {
+  text-decoration-line: none;
+  color: #f638dc;
+}
 
 @media (max-width: 600px) {
   header {
